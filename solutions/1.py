@@ -1,4 +1,4 @@
-input = open('./src/input/1.in').read().split('\n')
+input = open('input/1.in').read().split('\n')
 
 def isNumerical(c):
     return 48 <= ord(c) and ord(c) <= 57
